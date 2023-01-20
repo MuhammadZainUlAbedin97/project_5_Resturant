@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+}
+
+body,
+input {
+	font-family: "Times New Roman", Times, serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Playfair Display", serif;
+}
+
+.navbar {
+	height: 75px;
+}
+
+.nav-items1 {
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	padding: 1.5rem;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+a:-webkit-any-link {
+	color: rgb(75, 75, 75);
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-style: oblique;
+	padding: 10px;
+	border-radius: 25px;
+}
+
+a:-webkit-any-link:focus {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav-items2 {
+	display: flex;
+	margin-right: 1rem;
+	justify-content: flex-end;
+	gap: 3rem;
+}
+
+.hamburger {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.heading {
+	font-size: 10rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: rgb(255, 255, 255);
+	opacity: 0.6;
+	text-shadow: 2px 2px 4px #000000;
+	letter-spacing: 2rem;
+	text-transform: uppercase;
+}
+
+.about {
+	margin: 7rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.aboutText {
+	max-width: 450px;
+	text-align: center;
+	line-height: 1.8;
+	word-spacing: 3px;
+}
+
+.aboutHeading1,
+.aboutHeading2 {
+	padding: 2rem;
+	letter-spacing: 4px;
+}
+
+.aboutGreyB {
+	background-color: gainsboro;
+}
+
+.aboutGreyP {
+	margin-top: 3rem;
+	color: gray;
+}
+
+.menu {
+	margin: 7rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menuText {
+	line-height: 3.5;
+}
+
+.menuText h1 {
+	text-align: center;
+}
+
+.menuText h3 {
+	letter-spacing: 0.4rem;
+}
+
+.menuText p {
+	color: gray;
+}
+
+.contact {
+	margin: 7rem;
+}
+
+.contact p,
+h1,
+h4 {
+	margin-top: 3rem;
+}
+
+.contact h1 {
+	letter-spacing: 0.5rem;
+}
+
+.contact p {
+	line-height: 1.5;
+}
+
+.contact h4 {
+	color: gray;
+}
+
+.contact input {
+	font-size: 1.2rem;
+	display: block;
+	margin-top: 3rem;
+	width: 100%;
+	padding: 1rem;
+	border: none;
+	border-bottom: 1px solid rgb(60, 60, 60, 0.4);
+}
+
+.contact .btn:hover {
+	background-color: rgb(220, 220, 220);
+	cursor: pointer;
+}
